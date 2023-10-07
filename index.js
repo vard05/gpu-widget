@@ -17,10 +17,10 @@ app.on('ready', function () {
     ipcMain.on('MinClick', () => MinApp())
 
     mainWindow = new BrowserWindow({
-        width: 970,
-        minWidth: 970,
-        height: 592,
-        minHeight: 592,
+        width: 560,
+        minWidth: 560,
+        height: 340,
+        minHeight: 340,
         show: false,
         frame: false,
         webPreferences: {

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^25.4.0",
+    "iohook": "^0.9.3",
     "open": "^8.4.0",
     "request": "^2.88.2"
   }
